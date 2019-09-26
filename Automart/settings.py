@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'main_app', #estas aplicaciones tienen jerarquia y la de mas arriba tiene la preferencia.
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
