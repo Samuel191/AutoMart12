@@ -11,6 +11,7 @@ class Auto:
         self.precio = precio
         self.modelo = modelo
         self.color = color
+        
 
 autos =[
     Auto("VW Jetta", 145000, 2018, "Gris"),
